@@ -1,0 +1,54 @@
+/* Use import to split up your Css into manageable chunks*/
+@import url("./reset.css");
+/* Files that are only needed to be imported are called partials*
+/*These are marked with an underscore: */
+@import url("./variables.css");
+/* Feel free to add as many of these imports as you need*/
+
+
+#meny-checkbox{
+    display: none;
+}
+
+#meny-checkbox:checked nav{
+    display: block;
+}
+
+nav a{
+    display: block;
+}
+
+header{
+    position: relative;
+    background:23376B ;
+    color: #fff;
+    padding: 10px;
+    font-size:1.5rem;
+}
+
+nav{
+    position: absolute;
+    background:23376B ;
+    right: 0px;
+}
+
+nav a{
+    display: block;
+    color: white;
+    padding: 10px  20px;
+    font-size: 1rem;
+}
+
+@media(min-width:600px){
+    nav{
+        display: block;
+        position: static;
+    }
+
+.hamburger-icon{
+    display: none;
+}
+nav a{
+    display: inline-block;
+}
+}
