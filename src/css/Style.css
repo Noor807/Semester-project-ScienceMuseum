@@ -4,3 +4,38 @@
 /*These are marked with an underscore: */
 @import url("./variables.css");
 /* Feel free to add as many of these imports as you need*/
+
+body {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.center-body{
+    width: 90%;
+    padding-bottom: 4rem;
+
+}
+.Dekstop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: #fff
+}
