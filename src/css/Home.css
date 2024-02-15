@@ -42,7 +42,7 @@ header div {
 nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 50 0px;
+    margin: 25px;
     line-height: 30px;
 }
 
@@ -50,11 +50,12 @@ nav ul li {
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 7px, 13px;
+    padding: 5px, 10px;
     border-radius: 3px;
     text-decoration: none;
-    gap: 4rem;
+    gap: 3rem;
     margin-right: 3rem;
+    margin-bottom: 7px;
 }
 
 a.button,
@@ -67,7 +68,7 @@ a:hover {
     font-size: 30px;
     color:white ;
     float: right;
-    line-height: 80px;
+    line-height: 60px;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -75,10 +76,16 @@ a:hover {
 #check{
     display: none;
 }
+
+a:hover,a.button{
+    background: none;
+    color: #0082e6;
+
+}
 @media (max-width:952px){
     header div p{
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 30px;
     }
     nav ul li a{
         font-size: 16px;
@@ -89,6 +96,7 @@ a:hover {
     .checkbutton{
         display: block
     }
+
     ul{
         position: fixed;
         width: 100%;
@@ -99,19 +107,37 @@ a:hover {
         text-align: center;
         transition: all 0.5s;
     }
+    header div p{
+        font-size: 24px;
+        margin-left: 2px;
+    }
+
     nav ul li{
         display: block;
+        margin: 25px 0;
+        line-height: 30px;
+
     }
+
     nav ul li a{
         font-size: 20px;
 
     }
-    a:hover,a.button{
-        background: none;
-        color: #0082e6;
-    }
+
+   
+
     #check:checked  ul{
         left: 0;
     }
+    section{
+        background: url(bg1.jpg) no-repeat;
+        background-size: cover;
+        height: calc(100vh-80px);
+    }
 
 }
+
+
+
+
+
