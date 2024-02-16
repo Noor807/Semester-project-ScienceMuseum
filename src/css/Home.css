@@ -134,7 +134,9 @@ a:hover {
 .coming-events {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 7rem;
+    align-items: center;
+    margin: 5rem  6rem;
 }
 
 .skeleton {
@@ -142,17 +144,18 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid  grey;
-    background-color: #fff;
+    border: 1px grey;
+    background-color:#fff;
     width: 100%;
     max-width: 300px;
     padding: 0.5rem;
     gap: 1rem;
 
-    >img {
+    >a img {
         width: 100%;
-        max-width: 600%;
+        max-width: 50px;
     }
+
 
 }
 .mirror{
