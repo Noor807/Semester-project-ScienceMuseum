@@ -7,11 +7,41 @@
 
 }
 
+h1 {
+    font-family: 'inter', sans-serif;
+    font-style: bold;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'inter', sans-serif;
+    font-style: semi bold;
+    font-size: 60px;
+    font-size: clamp(14px, 1vw+1rem, 30px);
+    margin: 0;
+
+}
+
+h3 {
+    font-family: inter medium;
+    font-size: 20px;
+    font-size: clamp(14px, 1vw+1rem, 30px);
+    margin: 0;
+}
+
+p {
+    font-family: inter Regular;
+    font-size: 30px;
+    font-size: clamp(14px, 1vw+1rem, 30px);
+    margin: 0;
+}
+
 body,
 html {
     width: 100%;
     height: 100%;
 }
+
 
 nav {
     width: auto;
@@ -109,7 +139,7 @@ a:hover {
 
 .center-body {
     align-items: center;
-    margin: 1rem 1rem;
+    margin: 3rem
 }
 
 .home-pic {
@@ -119,24 +149,43 @@ a:hover {
 
 .heading {
     margin-top: 3rem;
+
 }
 
 .welcome-info {
     width: 100%;
+    max-width: 1400px;
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 5rem;
     align-items: center;
+    
 
+}
+
+.glass-animal {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
 }
 
 .coming-events {
     display: flex;
-    flex-direction: row;
-    gap: 7rem;
+    flex-direction: column;
+    margin: 3rem 3rem;
     align-items: center;
-    margin: 5rem  6rem;
+}
+
+.events-info {
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.event-items {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10rem;
 }
 
 .skeleton {
@@ -144,31 +193,34 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 1px grey;
-    background-color:#fff;
+    border: 1px solid grey;
+    background-color: #fff;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     padding: 0.5rem;
-    gap: 1rem;
+   
 
-    >a img {
+
+    >img {
         width: 100%;
-        max-width: 50px;
+        max-width: 600px;
     }
-
-
 }
-.mirror{
+    
+
+
+
+.mirror {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid  grey;
+    border: 1px solid grey;
     background-color: #fff;
     width: 100%;
     max-width: 300px;
     padding: 0.5rem;
-    gap: 1rem;
+    
 
     >img {
         width: 100%;
@@ -186,7 +238,7 @@ a:hover {
     border: 1px solid grey;
     margin-top: 5rem;
     margin-bottom: 5rem;
-   
+
 
 }
 
@@ -195,9 +247,10 @@ a:hover {
     width: 100%;
     max-width: 700px;
     height: 700px;
-   
+
 }
-.entry-para{
+
+.entry-para {
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -205,3 +258,52 @@ a:hover {
     max-width: 600px;
     background-color: light grey;
 }
+
+.gallery-pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px grey;
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    gap: 1rem;
+
+    >a img {
+        width: 100%;
+    }
+
+}
+
+.dekstop-footer{
+    background: #3f5ca8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0rem;
+    width: 100%;
+        
+    
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.footer-adress{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
