@@ -1,143 +1,163 @@
 /* index.css*/
-
 * {
-    padding: 0;
     margin: 0;
-    text-decoration: none;
-    list-style: none;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-body {
-    font-family: Inter, sans-serif;
+body,
+html {
+    width: 100%;
+    height: 100%;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+nav {
+    width: auto;
+    height: 10%;
     background: #23376B;
-    height: 80px;
-    width: 100%;
-   
-}
-header div img{
-    width: 100%;
-    max-width: 75px;
-    height: fit-content;
-    align-self: center;
-}
-header div p{
-    align-self:flex-end ;
-     font-size: 32px;
-     color: yellow;
-     margin-bottom: 7px;
 }
 
-header div {
-    display: flex;
-    gap: 10px;
+.logo {
+    font-size: 30px;
+    color: yellow;
+    margin: 0 100px;
+    line-height: 80px;
 }
 
+nav ul {
+    float: right;
+    list-style-type: none;
+}
 
 nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 25px;
-    line-height: 30px;
+
 }
 
-.button {
-    color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 5px, 10px;
-    border-radius: 3px;
+nav ul li a {
     text-decoration: none;
-    gap: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 7px;
-}
-
-a.button,
-a:hover {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 8px 10px;
     background: #23376B;
-    transition: 0.5s;
-    
 }
-.checkbutton{
-    font-size: 30px;
-    color:white ;
+
+nav ul li a .active,
+a:hover {
+    background: grey;
+
+}
+
+#check-btn {
     float: right;
-    line-height: 60px;
-    margin-right: 40px;
-    cursor: pointer;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
 
-a:hover,a.button{
-    background: none;
-    color: #0082e6;
+#check:checked~ul {
+    left: 0;
+}
+
+@media(max-width:450px) {
+    .logo {
+        font-size: 23px;
+        margin: 0 50px;
+    }
 
 }
-@media (max-width:952px){
-    header div p{
-        font-size: 30px;
-        padding-left: 30px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-    
-}
-@media (max-width:858px){
-    .checkbutton{
-        display: block
+
+@media (max-width: 1104px) {
+    .logo {
+        margin: 0 50px;
     }
 
-    ul{
-        position: fixed;
+
+    #check-btn {
+        display: block;
+    }
+
+    nav ul {
         width: 100%;
         height: 100vh;
-        background: #23376B;
+        background: #3f5ca8;
+        position: fixed;
         top: 80px;
         left: -100%;
-        text-align: center;
-        transition: all 0.5s;
-    }
-    header div p{
-        font-size: 24px;
-        margin-left: 2px;
+        transition: 0.5s;
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
-        margin: 25px 0;
-        line-height: 30px;
+        text-align: center;
+        line-height: 50px;
+        margin: 20px;
 
-    }
-
-    nav ul li a{
-        font-size: 20px;
-
-    }
-
-   
-
-    #check:checked  ul{
-        left: 0;
-    }
-    section{
-        background: url(bg1.jpg) no-repeat;
-        background-size: cover;
-        height: calc(100vh-80px);
     }
 
 }
 
+.center-body {
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.home-pic {
+    width: 100%;
+    max-width: 2000px;
+}
+
+.heading {
+    margin-top: 3rem;
+}
+
+.welcome-info {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+.coming-events {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid  black;
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+    gap: 1rem;
+    
+>img{
+    width: 100%;
+    max-width: 500px;
+}
+
+}
 
 
-
-
+.entry{
+    width: 100%;
+    max-width: 600px;
+}

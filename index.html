@@ -7,37 +7,32 @@
     <meta name="Description" content="Explore together the world of science">
     <title>Science museum home</title>
     <link rel="stylesheet" href="./src/css/Home.css">
-    <script src="https://kit.fontawesome.com/477db4c9cb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" />
+
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="./assets/img src/atomic-icon.png" alt="">
-            <p class="logo">Science Museum</p>
+    <nav>
+        <input type="checkbox" id="check" name="" value="">
+        <label for="check" id="check-btn"><i class="fa fa-bars"></i></label>
 
-        </div>
-        <section>
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbutton">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <ul>
-                    <li> <a class="button" href="#">Home</a></li>
-                    <li> <a class="button" href="#">Exhibition</a></li>
-                    <li> <a class="button" href="#">Explore</a></li>
-                    <li> <a class="button" href="#">Contact</a></li>
-                    <li> <a class="button" href="#">Contribution</a></li>
-                </ul>
-            </nav>
-        </section>
+        <label class="logo">Science Museum</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Exhibition</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Contribution</a></li>
+        </ul>
 
-    </header>
+    </nav>
+
+    <img class="home-pic" src="./assets/img src/home-img_11zon.jpg" alt="Home page bog image">
     <main class="center-body">
-        <img class="home-pic" src="./assets/img src/home-img_11zon.jpg" alt="Home page bog image">
-        <h1>Welcome to science Museum</h1>
-        <div class="Welcome-info">
+        <h1 class="heading">Welcome to science Museum</h1>
+        <div class="welcome-info">
             <p>“Explore together”
 
                 Come join us at the Community Science Museum where we are committed to making
@@ -59,7 +54,7 @@
 
         <h2>Upcoming Events</h2>
         <div class="coming-events">
-            <div class="Skeleton">
+            <div class="skeleton">
                 <img src="./assets/img src/event-img1.png" alt="Human skeleton event">
                 <h3>Human Skeleton</h3>
                 <p>Discover information about human body skeleton.
@@ -69,7 +64,7 @@
                 </p>
 
             </div>
-            <div class="Mirror">
+            <div class="mirror">
                 <img src="./assets/img src/event-img2_11zon.jpg" alt="Amirror maze event">
                 <h3>A Mirror Maze</h3>
                 <p>Discover mathematical patterns
@@ -81,7 +76,7 @@
             </div>
         </div>
         <div class="Entrance">
-            <img src="./assets/img src/entrance-img_11zon.jpg" alt="Entrance picture">
+            <img class="entry" src="./assets/img src/entrance-img_11zon.jpg" alt="Entrance picture">
             <h4>The Entrance:</h4>
             <p>The entrance free for all.
 
@@ -108,7 +103,7 @@
 
     </main>
 
-    
+
     <footer class="Dekstop-footer">
         <div class="Explore">
             <a href="./privacy.html">Privacy policy</a>
@@ -118,17 +113,16 @@
             <b>Science Museum</b>
             <p>Adress: Kjelsåsveien 143
                 0491 Oslo
-    
+
                 Tlf: 22796000
                 Time: Man-fre. Kl. 08-16</p>
-    
+
         </div>
         <div class="Socials">
             <i class=""></i>
         </div>
     </footer>
-    
-    </body>
-    
-    </html>
-    </body>
+
+</body>
+
+</html>
