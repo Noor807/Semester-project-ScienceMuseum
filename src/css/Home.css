@@ -109,7 +109,7 @@ a:hover {
 
 .center-body {
     align-items: center;
-    margin: 1rem 2rem;
+    margin: 1rem 1rem;
 }
 
 .home-pic {
@@ -142,22 +142,63 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid  black;
+    border: 1px solid  grey;
     background-color: #fff;
     width: 100%;
     max-width: 300px;
     padding: 0.5rem;
     gap: 1rem;
-    
->img{
+
+    >img {
+        width: 100%;
+        max-width: 600%;
+    }
+
+}
+.mirror{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid  grey;
+    background-color: #fff;
     width: 100%;
-    max-width: 500px;
-}
+    max-width: 300px;
+    padding: 0.5rem;
+    gap: 1rem;
+
+    >img {
+        width: 100%;
+        max-width: 600%;
+    }
 
 }
 
+.entrance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+   
 
-.entry{
+}
+
+
+.entry {
+    width: 100%;
+    max-width: 700px;
+    height: 700px;
+   
+}
+.entry-para{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
     width: 100%;
     max-width: 600px;
+    background-color: light grey;
 }
