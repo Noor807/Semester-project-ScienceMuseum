@@ -10,30 +10,39 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <header>
+        <div class="logo-box">
+            <img src="./assets/header-logo.png" alt="logo of the museum">
+            <p class="logo">Science Museum</p>
+        </div>
+        <nav>
+            <input type="checkbox" id="check" name="" value="">
+            <label for="check" id="check-btn"><i class="fa fa-bars"></i></label>
 
-    <nav>
-        <input type="checkbox" id="check" name="" value="">
-        <label for="check" id="check-btn"><i class="fa fa-bars"></i></label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Exhibition</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contribution</a></li>
+            </ul>
 
-        <label class="logo">Science Museum</label>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Exhibition</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Contribution</a></li>
-        </ul>
-
-    </nav>
+        </nav>
+    </header>
 
 
     <img class="home-pic" src="./assets/img src/home-img_11zon.jpg" alt="Home page big image">
+
     <main class="center-body">
         <h1 class="heading">Welcome to science Museum</h1>
+
         <div class="welcome-info">
             <p>“Explore together”
 
@@ -55,18 +64,18 @@
                 We have over 1000 different exhibits on the many varied subjects of science to explore.</p>
             <img class="glass-animal" src="./assets/welcom-img.png" alt="Welcome image">
         </div>
-        <div class="coming-events">
+        <section class="coming-events">
             <h2 class="events-info">Upcoming Events</h2>
             <div class="event-items">
 
                 <div class="skeleton">
                     <img src="./assets/img src/event-img1.png" alt="Human skeleton event">
                     <h3>Human Skeleton</h3>
-                    <p>Discover information about human body skeleton.
+                    <p>Discover information about human body skeleton. </p>
 
-                        Friday,8 March 2024
-                        15:00-16:00 pm
-                    </p>
+                    <p> Friday,8 March 2024
+                        15:00-16:00 pm</p>
+
                 </div>
 
                 <div class="mirror">
@@ -80,10 +89,10 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="entrance">
+        </section>
+        <section class="entrance">
             <img class="entry" src="./assets/img src/entrance-img_11zon.jpg" alt="Entrance picture">
-            <div class="entry-para">
+            <artical class="entry-para">
                 <h4>The Entrance:</h4>
                 <p>The entrance free for all.
 
@@ -96,9 +105,10 @@
 
                     Accessibility:
                     The museum has wheelchair accessibility ramps. It also has audio
-                    guides and braille display signs for the visually impaired.</p>
-            </div>
-        </div>
+                    guides and braille display signs for the visually impaired.
+                </p>
+            </artical>
+        </section>
         <h2>Gallery:</h2>
         <div class="gallery-pics">
             <img src="./assets/img src/gallery-img1_11zon.jpg" alt="Gallery picture one">
@@ -113,7 +123,7 @@
     </main>
 
 
-    <footer class="Dekstop-footer">
+    <footer class="dekstop-footer">
         <div class="footer-links">
             <p>Explore</p>
             <a href="./privacy.html">Privacy policy</a>
@@ -122,14 +132,16 @@
         <div class="footer-adress">
             <b>Science Museum</b>
             <p>Adress: Kjelsåsveien 143
-                0491 Oslo
+                0491 Oslo</p>
 
-                Tlf: 22796000
+            <p>Tlf: 22796000
                 Time: Man-fre. Kl. 08-16</p>
 
         </div>
-        <div class="Socials-links">
-            <i class=""></i>
+        <div class="socials-links">
+            <i class="#"></i>
+            <i class="#"></i>
+            <i class="#"></i>
         </div>
     </footer>
 
