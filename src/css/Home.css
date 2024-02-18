@@ -24,21 +24,20 @@ header div img{
 h1 {
     
     font-style: bold;
-    font-size: clamp(36px, 2vw + 10rem, 60px);
+    font-size: clamp(36px, 2vw + 10rem, 50px);
 }
 
 h2 {
     
     font-style: semi bold;
-    font-size: clamp(14px, 1vw +1rem, 30px);
+    font-size: clamp(36px, 2vw +10rem, 50px);
     margin: 0;
 
 }
 
 h3 {
     font-style: medium;
-    font-size: 20px;
-    font-size: clamp(14px, 1vw + 1rem, 30px);
+    font-size: clamp(14px, 1vw + 1rem, 25px);
     margin: 0;
 }
 
@@ -204,7 +203,7 @@ a:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 3rem 3rem;
+    margin: 0rem 3rem;
     align-items: center;
 }
 
@@ -246,20 +245,19 @@ a:hover {
 .mirror {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     border: 1px solid grey;
     background-color: #fff;
     width: 100%;
     max-width: 400px;
-    padding: 0.5rem;
+    gap: 5px;
+    height: 550px;
 
-
-    >img {
-        width: 100%;
-        max-width: 600%;
-    }
-
+}
+.mirror img {
+    width: 100%;
+    max-width: 600%;
 }
 
 .entrance {
@@ -279,8 +277,8 @@ a:hover {
 
 .entry {
     width: 100%;
-    max-width: 700px;
-    height: 700px;
+    max-width: 800px;
+    height: 800px;
 
 }
 
@@ -322,7 +320,7 @@ a:hover {
 .footer-links {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 1rem;
 }
 
 .footer-adress {
