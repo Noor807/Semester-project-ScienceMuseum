@@ -1,11 +1,66 @@
+/* index.css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'inter', sans-serif; 
+}
+
+
+header {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23376B;
+    
+}
+
+.dekstop-footer {
+    background: #23376B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 100%;
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+.footer-links a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+.footer-adress {
+    display: flex;
+    flex-direction: column;
+    color:white ;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+}
+header div img{
+    width: 100%;
+    max-width: 80px;
+}
 body,
 html {
     width: 100%;
-    height: 100%;
-}
-header{
-    margin: 0;
-    padding: 0;
+
 }
 
 
@@ -14,11 +69,17 @@ nav {
     height: 10%;
     background: #23376B;
 }
+.logo-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
 
 .logo {
     font-size: 30px;
     color: yellow;
-    margin: 0 100px;
+    margin: 0 20px;
     line-height: 80px;
 }
 
@@ -39,7 +100,7 @@ nav ul li a {
     font-size: 20px;
     text-transform: capitalize;
     padding: 8px 10px;
-    background: #23376B;
+  
 }
 
 nav ul li a .active,
@@ -67,8 +128,8 @@ a:hover {
 
 @media(max-width:450px) {
     .logo {
-        font-size: 23px;
-        margin: 0 50px;
+        font-size: 16px;
+        margin: 0 20px;
     }
 
 }

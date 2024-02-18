@@ -91,7 +91,7 @@ nav ul li a {
     font-size: 20px;
     text-transform: capitalize;
     padding: 8px 10px;
-    background: #23376B;
+  
 }
 
 nav ul li a .active,
@@ -119,8 +119,8 @@ a:hover {
 
 @media(max-width:450px) {
     .logo {
-        font-size: 23px;
-        margin: 0 50px;
+        font-size: 16px;
+        margin: 0 20px;
     }
 
 }
@@ -209,14 +209,14 @@ a:hover {
 
 .events-info {
     align-items: center;
-    margin: 30px 30px;
+    margin: 20px 20px;
 }
 
 .event-items {
     width: 100%;
     display: flex;
     flex-direction: row;
-    row-gap: 10rem;
+    row-gap: 8rem;
     justify-content: space-around;
 }
 
@@ -306,14 +306,13 @@ a:hover {
 }
 
 .dekstop-footer {
-    background: #3f5ca8;
+    background: #23376B;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 3rem 0rem;
+    padding: 2rem 0rem;
     width: 100%;
-
 
 }
 
@@ -321,17 +320,84 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    color: white;
+}
+.footer-links a {
+    text-decoration: none;
+    color: white;
+   
 }
 
 .footer-adress {
     display: flex;
     flex-direction: column;
+    color:white ;
 }
 
 .social-links {
     display: flex;
     flex-direction: row;
-    gap: 0.5em;
+    gap:2rem;
     justify-content: center;
     align-items: center;
+}
+
+@media(max-width:1104px){
+
+    .welcome-info {
+        width: 90%;
+        max-width: 60%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .event-items {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .entrance {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    
+    }
+    .gallery-pics {
+        display: grid;
+       grid-template-columns: repeat(2,1fr);
+       margin: 0 auto;
+        border: 1px grey;
+        width: 80%;
+        padding: 0.5rem;
+        gap: 3rem;
+    
+       
+    
+    }
+
+}
+@media(max-width:920px){
+    .gallery-pics {
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+       margin: 0 auto;
+        border: 1px grey;
+        width: 80%;
+        padding: 0.5rem;
+        gap: 3rem;  
+    
+    }
+    .dekstop-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        width: 100%;
+    
+    }
+
+
 }
