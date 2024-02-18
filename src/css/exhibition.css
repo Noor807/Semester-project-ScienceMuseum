@@ -5,6 +5,27 @@
     box-sizing: border-box;
     font-family:'inter', sans-serif; 
 }
+h1 {
+    
+    font-style: bold;
+    font-size: clamp(36px, 2vw + 10rem, 50px);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    
+    font-style: semi bold;
+    font-size: clamp(36px, 2vw +10rem, 50px);
+    margin: 0;
+
+}
+p {
+    font-style: regular;
+    font-size: 30px;
+    font-size: clamp(14px, 1vw + 1rem, 24px);
+    margin: 0;
+}
 
 
 header {
@@ -53,6 +74,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 header div img{
     width: 100%;
     max-width: 80px;
@@ -163,3 +185,53 @@ a:hover {
     }
 
 }
+body{
+    align-items: center;
+   
+}
+.home-pic {
+    width: 100%;
+    max-width: 2000px;
+}
+ .biology{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 3rem;
+    align-items: center;
+    border: 1px solid black;
+    background-color: grey;
+    width: 100%;
+    max-width: 1500px;
+ }
+ .detail{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 100%;
+    max-width: 50%;
+    
+ }
+ .evolution{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 3rem;
+    align-items: center;
+    border: 1px solid black;
+    background-color: grey;
+    margin-top: 5rem;
+    width: 100%;
+    max-width: 1500px;
+
+ }
+ .detail{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 100%;
+    max-width: 50%;
+    
+ }
