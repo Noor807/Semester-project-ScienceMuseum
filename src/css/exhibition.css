@@ -10,6 +10,8 @@ h1 {
     font-style: bold;
     font-size: clamp(36px, 2vw + 10rem, 50px);
     margin: 5rem;
+    border-bottom: 1px solid black;
+    width: 300px;
    
 }
 
@@ -193,7 +195,7 @@ body{
     width: 100%;
     max-width: 2000px;
 }
- .biology{
+ .forward{
     display: flex;
     flex-direction: row;
     margin: 6rem 5rem;
@@ -201,7 +203,7 @@ body{
     gap: 3rem;
     align-items: center;
     border: 1px solid black;
-    background-color: grey;
+    background-color: lightskyblue;
     width: 100%;
     max-width: 1500px;
  }
@@ -213,7 +215,7 @@ body{
     max-width: 50%;
     
  }
- .evolution{
+ .reverse{
     display: flex;
     flex-direction: row;
     margin: 6rem 5rem;
@@ -221,7 +223,7 @@ body{
     gap: 4.5rem;
     align-items: center;
     border: 1px solid black;
-    background-color: lightskyblue;
+    background-color: grey;
     margin-top: 5rem;
     width: 100%;
     max-width: 1500px;
@@ -237,33 +239,5 @@ body{
 
  }
  
-.cosmology{
-    display:flex; 
-    flex-direction: row;
-    margin: 6rem 5rem;
-    padding: 0;
-    gap: 3rem;
-    align-items: center;
-    border: 1px solid black;
-    background-color: grey;
-    margin-top: 5rem;
-    width: 100%;
-    max-width: 1500px;
-
-}
-.ecology{
-    display: flex;
-    flex-direction: row;
-    margin: 6rem 5rem;
-    padding: 0;
-    gap: 4.5rem;
-    align-items: center;
-    border: 1px solid black;
-    background-color: lightskyblue;
-    margin-top: 5rem;
-    width: 100%;
-    max-width: 1500px;
-
-}
-
+.
 
