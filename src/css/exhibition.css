@@ -9,8 +9,8 @@ h1 {
     
     font-style: bold;
     font-size: clamp(36px, 2vw + 10rem, 50px);
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin: 5rem;
+   
 }
 
 h2 {
@@ -196,7 +196,7 @@ body{
  .biology{
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 6rem 5rem;
     padding: 0;
     gap: 3rem;
     align-items: center;
@@ -216,7 +216,7 @@ body{
  .evolution{
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 6rem 5rem;
     padding: 0;
     gap: 3rem;
     align-items: center;
@@ -227,11 +227,18 @@ body{
     max-width: 1500px;
 
  }
- .detail{
+ 
+.cosmology{
     display: flex;
-    flex-direction: column;
-    gap:2rem;
+    flex-direction: row;
+    margin: 6rem 5rem;
+    padding: 0;
+    gap: 3rem;
+    align-items: center;
+    border: 1px solid black;
+    background-color: grey;
+    margin-top: 5rem;
     width: 100%;
-    max-width: 50%;
-    
- }
+    max-width: 1500px;
+
+}
