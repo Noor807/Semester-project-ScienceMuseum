@@ -185,3 +185,64 @@ a:hover {
     width: 100%;
     max-width: 2000px;
 }
+.contact-hours{
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    height: 600px;
+    margin-left: 4rem;
+}
+.visit-hour{
+    width: 100%;
+    max-width: 600px;
+    height:600px;
+    background-color:skyblue;
+}
+
+.contact-container {
+    justify-content: left;
+    text-align: left;
+    display: row;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    row-gap: 3rem;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 0.4rem;
+    justify-self: flex-start;
+    margin: 0;
+}
+
+.textarea {
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px grey;
+    border: 0.5px solid grey;
+}
+
+.input {
+    max-width: 300;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px grey;
+    border: 0.5px solid grey;
+    padding: 3px 2px;
+
+}
+
+.submit-button {
+    background-color: black;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+
+}
