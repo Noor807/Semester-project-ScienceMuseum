@@ -208,7 +208,7 @@ body {
 .explore {
     display: flex;
     flex-direction: row;
-    margin-left: 6rem ;
+    margin-left: 6rem;
     padding: 0;
     gap: 6rem;
     align-items: center;
@@ -216,17 +216,18 @@ body {
     max-width: 1600px;
 }
 
-.brief{
+.brief {
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap: 2rem;
     width: 100%;
     max-width: 50%;
 }
-.teachers{
+
+.teachers {
     display: flex;
     flex-direction: row;
-    margin-left: 6rem ;
+    margin-left: 6rem;
     margin-top: 2rem;
     padding-top: 3rem;
     gap: 6rem;
@@ -234,35 +235,37 @@ body {
     width: 100%;
     max-width: 1600px;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap: 2rem;
     width: 100%;
     max-width: 50%;
 
 }
 
-.research{
+.research {
     display: flex;
     flex-direction: row;
-    margin-left: 6rem ;
+    margin-left: 6rem;
     padding-top: 3rem;
     gap: 6rem;
     align-items: center;
     width: 100%;
     max-width: 1600px
-
 }
-.information{
+
+.information {
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap: 2rem;
     width: 100%;
     max-width: 50%;
 
 }
-.kafe{
+
+.kafe {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,8 +273,28 @@ body {
     margin-top: 6rem;
 
 }
-.food-drink{
+
+.kafe-info {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.shop-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
 }
