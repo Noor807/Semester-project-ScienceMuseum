@@ -218,18 +218,27 @@ body{
     flex-direction: row;
     margin: 6rem 5rem;
     padding: 0;
-    gap: 3rem;
+    gap: 4.5rem;
     align-items: center;
     border: 1px solid black;
-    background-color: grey;
+    background-color: lightskyblue;
     margin-top: 5rem;
     width: 100%;
     max-width: 1500px;
 
  }
+ .evo-detail{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    width: 100%;
+    max-width: 50%;
+    margin: 5rem;
+
+ }
  
 .cosmology{
-    display: flex;
+    display:flex; 
     flex-direction: row;
     margin: 6rem 5rem;
     padding: 0;
@@ -242,3 +251,19 @@ body{
     max-width: 1500px;
 
 }
+.ecology{
+    display: flex;
+    flex-direction: row;
+    margin: 6rem 5rem;
+    padding: 0;
+    gap: 4.5rem;
+    align-items: center;
+    border: 1px solid black;
+    background-color: lightskyblue;
+    margin-top: 5rem;
+    width: 100%;
+    max-width: 1500px;
+
+}
+
+
