@@ -204,11 +204,12 @@ a:hover {
     text-align: left;
     display: row;
     flex-direction: row;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     row-gap: 3rem;
     box-sizing: border-box;
     width: 100%;
     max-width: 400px;
+    height: 800px;
 }
 
 .contact {
@@ -250,12 +251,11 @@ a:hover {
 .img-location{
     display: flex;
     flex-direction: row;
-    gap: 3rem;
-    background-color:skyblue ;
-    height: 400px;
+    gap: 5rem;
+    background-color:skyblue;
     width: 100%;
-    max-width: 1600px;
-    margin-left: 3rem;
+    max-width: 1800px;
+    margin-left: 0;
     margin-bottom: 3rem;
     padding: 2rem;
 
@@ -264,4 +264,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 3rem;
+}
+.school-trip{
+    width: 100%;
+    max-width: 2000px;
+    margin: 3rem,3rem;
 }
