@@ -194,9 +194,15 @@ a:hover {
 }
 .visit-hour{
     width: 100%;
-    max-width: 400px;
-    height:400px;
+    max-width: 500px;
+    height:500px;
     background-color:skyblue;
+}
+.timing{
+    align-items: center;
+    font-size: 30px;
+    margin: 2rem 2rem;
+    padding: 2rem;
 }
 
 .contact-container {
@@ -205,6 +211,7 @@ a:hover {
     display: row;
     flex-direction: row;
     margin-bottom: 0.5rem;
+    margin-top: 2rem;
     row-gap: 3rem;
     box-sizing: border-box;
     width: 100%;
@@ -226,7 +233,7 @@ a:hover {
     border-radius: 4px;
     box-shadow: 5px 5px 10px grey;
     border: 0.5px solid grey;
-    height: 500px;
+   
 }
 
 .input {
@@ -252,21 +259,23 @@ a:hover {
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    background-color:skyblue;
+    background-color:grey;
     width: 100%;
     max-width: 1800px;
     margin-left: 0;
     margin-bottom: 3rem;
     padding: 2rem;
+    height: 500px;
 
 }
 .adress{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 40px;
+    font-size: 35px;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    padding: 2rem;
 }
 .school-trip{
     width: 100%;
