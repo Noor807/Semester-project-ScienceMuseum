@@ -9,14 +9,22 @@
 h1 {
 
     font-style: bold;
-    font-size: clamp(36px, 2vw + 10rem, 50px);
+    font-size: clamp(36px, 2vw + 10rem, 40px);
     margin: 3rem;
     border-bottom: 1px solid black;
     width: 300px;
+    padding-left: 2rem;
 
 }
 
+h2 {
 
+    font-style: semi bold;
+    font-size: clamp(36px, 2vw +10rem, 35px);
+    margin-top: 1rem;
+   
+
+}
 
 
 header {
@@ -191,24 +199,45 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 60px;
+    gap: 50px;
     height: 600px;
     margin: 0 auto;
 }
 
 .visit-hour {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
-    max-width: 600px;
-    height: 500px;
-    background-color: skyblue;
+    max-width: 500px;
+    height: 450px;
+    background-color: lightgrey
 }
 
-.timing {
+
+.time {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    font-size: 30px;
-    margin: 2rem 2rem;
-    padding: 2rem;
+    justify-content: center;
+    font-size: 21px;
+    margin: 1rem 2rem;
+    padding-right: 2rem;
+    gap: 1rem;
 }
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    margin-top: 6.5rem;
+    padding-right: 2rem;
+    gap: 1rem;
+
+}
+
 
 input {
     padding: 0.3rem 0rem;
@@ -228,7 +257,7 @@ label,
     display: row;
     flex-direction: row;
     margin-bottom: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     row-gap: 3rem;
     box-sizing: border-box;
     width: 100%;
@@ -250,7 +279,7 @@ label,
     border-radius: 4px;
     box-shadow: 5px 5px 10px grey;
     border: 0.5px solid grey;
-    height: 220px;
+    height: 400px;
 
 }
 
@@ -279,7 +308,7 @@ label,
     flex-direction: row;
     gap: 0rem;
     justify-content: center;
-    background-color: grey;
+    background-color: lightgrey;
     width: 100%;
     margin-bottom: 3rem;
     padding: 1em;

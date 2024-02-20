@@ -19,7 +19,7 @@ h2 {
     font-style: semi bold;
     font-size: clamp(36px, 2vw +10rem, 40px);
     margin-top: 3rem;
-    border-bottom: 1px solid black;
+    border-bottom: 0.5px solid black;
     width: 400px;
 
 }
@@ -228,8 +228,7 @@ body {
     flex-direction: row;
     gap: 2rem;
     border-radius: 1px solid black;
-    background-color: antiquewhite;
-    box-shadow: inset;
+    background-color:lightgray;
     margin-bottom: 3rem;
     margin-top: 2rem;
     max-width: 1300px;
@@ -241,6 +240,6 @@ body {
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
-    font-size: 28px;
+    font-size: 26px;
 
 }
