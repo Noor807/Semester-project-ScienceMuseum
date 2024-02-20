@@ -1,0 +1,246 @@
+/* explore.css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+h1 {
+
+    font-style: bold;
+    font-size: clamp(36px, 2vw + 8rem, 40px);
+    margin: 3rem 0.5rem;
+
+}
+
+h2 {
+
+    font-style: semi bold;
+    font-size: clamp(36px, 2vw +10rem, 40px);
+    margin-top: 3rem;
+    border-bottom: 1px solid black;
+    width: 400px;
+
+}
+
+p {
+    font-style: regular;
+    font-size: 30px;
+    font-size: clamp(14px, 1vw + 1rem, 24px);
+    margin: 0;
+}
+
+
+
+header {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23376B;
+
+}
+
+
+.dekstop-footer {
+    background: #23376B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 100%;
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-adress {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+header div img {
+    width: 100%;
+    max-width: 80px;
+}
+
+body,
+html {
+    width: 100%;
+
+}
+
+
+nav {
+    width: auto;
+    height: 10%;
+    background: #23376B;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.logo {
+    font-size: 30px;
+    color: yellow;
+    margin: 0 20px;
+    line-height: 80px;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 8px 10px;
+
+}
+
+nav ul li a .active,
+a:hover {
+    background: grey;
+
+}
+
+#check-btn {
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~ul {
+    left: 0;
+}
+
+@media(max-width:450px) {
+    .logo {
+        font-size: 16px;
+        margin: 0 20px;
+    }
+
+}
+
+@media (max-width: 1104px) {
+    .logo {
+        margin: 0 50px;
+    }
+
+
+    #check-btn {
+        display: block;
+    }
+
+    nav ul {
+        width: 100%;
+        height: 100vh;
+        background: #3f5ca8;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        margin: 20px;
+
+    }
+
+}
+
+body {
+    align-items: center;
+
+}
+
+.center {
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home-pic {
+    width: 100%;
+    max-width: 2000px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.charity {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 2rem;
+}
+
+.contribution {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border-radius: 1px solid black;
+    background-color: antiquewhite;
+    box-shadow: inset;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    max-width: 1300px;
+
+}
+
+.div-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 28px;
+
+}
