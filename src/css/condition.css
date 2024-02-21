@@ -219,6 +219,12 @@ body{
     flex-direction: column;
     gap: 0.3rem;
  }
+ .mini-robot{
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+   
+ }
 
 
 
