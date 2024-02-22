@@ -23,8 +23,7 @@ h2 {
 }
 p {
     font-style: regular;
-    font-size: 30px;
-    font-size: clamp(14px, 1vw + 1rem, 24px);
+    font-size: clamp(11px, 1vw + 1rem, 24x);
     margin: 0;
 }
 
@@ -212,6 +211,7 @@ body{
     gap:2rem;
     width: 100%;
     max-width: 50%;
+    font-size: 28px;
     
  }
  .reverse{
@@ -235,36 +235,50 @@ body{
     width: 100%;
     max-width: 50%;
     margin: 5rem;
+    font-size: 28px;
 
  }
- .items{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left:2rem ;
-    padding: 1rem; 
- }
- .event-heading{
-   margin-left: 5rem;
-   margin-bottom: 3rem;
- }
+
  
-.special-info{
+ .special-night {
     width: 100%;
-    max-width: 900px;
-    align-items: center; 
-    margin-left: 5rem ;
-    padding-left: 2rem;
-    width: 100%;
-    max-width: 800px;     
-} 
-
-
-
-.special-img{
     display: flex;
     flex-direction: row;
-    gap: 7rem;
-    margin: 5rem;
+    row-gap: 8rem;
+    justify-content: space-around;
 }
 
+.activities {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+
+.museum-night {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid blue;
+    width: 100%;
+    max-width: 413px;
+    gap: 2px;
+    height: 800px;
+    box-shadow: 0.4rem o.4rem 0.4em rgba(0, 0, 0, 0);
+    background-color: antiquewhite;
+    margin: 3rem 2rem;
+
+
+}
+
+.three-events {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+   
+}
