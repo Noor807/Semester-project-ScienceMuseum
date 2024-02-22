@@ -47,8 +47,7 @@ h3 {
 
 p {
     font-style: regular;
-    font-size: 30px;
-    font-size: clamp(11px, 1vw + 1rem, 24px);
+    font-size: clamp(11px, 1vw + 1rem, 20px);
     margin: 0;
 }
 
@@ -68,14 +67,13 @@ nav {
 .logo-box {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     width: 50%;
 }
 
 .logo {
     font-size: 30px;
     color: yellow;
-    margin: 0 20px;
+    margin: 0 10px;
     line-height: 80px;
 }
 
@@ -226,7 +224,7 @@ a:hover {
     justify-content: space-around;
 }
 
-.skeleton {
+.two-event{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -240,29 +238,19 @@ a:hover {
 
 }
 
-.skeleton img {
+.two-event img {
     width: 100%;
     max-width: 600px;
 }
-
-.mirror {
+.in-center{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: 1px solid grey;
-    background-color: #fff;
-    width: 100%;
-    max-width: 400px;
-    gap: 5px;
-    height: 550px;
-
+   margin: 1rem 1rem;
+    align-items: center;
+    gap: 1rem;
 }
 
-.mirror img {
-    width: 100%;
-    max-width: 600%;
-}
+
 
 .entrance {
     display: flex;
