@@ -224,7 +224,7 @@ a:hover {
     justify-content: space-around;
 }
 
-.two-event{
+.two-event {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -234,7 +234,8 @@ a:hover {
     width: 100%;
     max-width: 400px;
     gap: 5px;
-    height: 550px;
+    height: 620px;
+    box-shadow: 0.4rem o.4rem 0.4em rgba(0, 0, 0, 0);
 
 }
 
@@ -242,10 +243,11 @@ a:hover {
     width: 100%;
     max-width: 600px;
 }
-.in-center{
+
+.in-center {
     display: flex;
     flex-direction: column;
-   margin: 1rem 1rem;
+    margin: 1rem 1rem;
     align-items: center;
     gap: 1rem;
 }
@@ -261,7 +263,7 @@ a:hover {
     border: 1px solid black;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    background-color:lightgray;
+    background-color: lightgray;
 
 
 }
@@ -404,6 +406,7 @@ a:hover {
         width: 100%;
 
     }
+
     .entry-para {
         display: flex;
         flex-direction: column;
@@ -411,8 +414,9 @@ a:hover {
         width: 100%;
         padding: 1rem;
         max-width: 400px;
-    
+
     }
+
     .entry {
         width: 100%;
         max-width: 400px;
@@ -425,6 +429,6 @@ a:hover {
     .logo {
         font-size: 16px;
         margin: 0 20px;
-    }  
+    }
 
 }
