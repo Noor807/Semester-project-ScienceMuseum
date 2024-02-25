@@ -135,8 +135,8 @@ a:hover {
 
     nav ul {
         width: 100%;
-        height: 50vh;
-        background: #3f5ca8;
+        height: 40vh;
+        background: #23376B;
         position: fixed;
         top: 80px;
         left: -100%;
@@ -146,7 +146,7 @@ a:hover {
     nav ul li {
         display: block;
         text-align: center;
-        line-height: 50px;
+        line-height: 40px;
         margin: 20px;
 
     }
@@ -248,6 +248,7 @@ a:hover {
     align-items: center;
     gap: 1rem;
 }
+
 .entrance {
     display: flex;
     flex-direction: row;
@@ -279,27 +280,28 @@ a:hover {
     max-width: 600px;
 
 }
-.h2-heading{
+
+.h2-heading {
     width: 450px;
     height: 50px;
-    background:#162959;
+    background: #162959;
     margin-bottom: 3rem;
-   
+
 }
 
 
 .special-night {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     row-gap: 8rem;
     justify-content: space-around;
 }
 
 .activities {
-    display:flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
     gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
@@ -334,7 +336,7 @@ a:hover {
 .gallery-pics {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-right:14rem;
+    margin-right: 14rem;
     border: 1px grey;
     width: 80%;
     padding: 3rem 1.5rem;
@@ -416,7 +418,7 @@ a:hover {
 
 
     }
-   
+
 
     .gallery-pics {
         display: grid;
@@ -427,11 +429,15 @@ a:hover {
         padding: 0.5rem;
         gap: 3rem;
     }
+
+
     .activities {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
+
     }
+
 
 }
 
@@ -445,6 +451,11 @@ a:hover {
         padding: 0.5rem;
         gap: 3rem;
 
+    }
+    .heading {
+        width: 50%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .dekstop-footer {
@@ -470,6 +481,13 @@ a:hover {
         width: 100%;
         max-width: 400px;
         height: 400px;
+    }
+
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+
     }
 
 }
