@@ -1,0 +1,14 @@
+:root {
+    font-size: 12px;
+}
+
+::before::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'inter', sans-serif;
+    margin: 0;
+}
+
