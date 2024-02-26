@@ -7,38 +7,6 @@
     font-family: 'inter', sans-serif;
 }
 
-h1 {
-    font-size: clamp(28px, 1vw + 1rem, 36px);
-    color: black;
-    font-style: bold;
-
-}
-
-h2 {
-    font-family: 'inter', sans-serif;
-    font-weight: 700;
-    font-size: clamp(15px, 1vw + 1rem, 30px);
-    border-bottom: 1px solid black;
-
-}
-
-h3 {
-    font-size: clamp(14px, 1vw + 1rem, 26px);
-    font-family: 'inter', sans-serif;
-    font-style: semi bold;
-    margin: 0;
-}
-
-p,
-a {
-    font-size: clamp(14px, 1vw + 1rem, 16px);
-    font-family: 'inter', sans-serif;
-    font-style: regular;
-    font-size: 18px;
-    margin: 0;
-}
-
-
 .center-body {
     display: flex;
     flex-direction: column;
@@ -75,7 +43,6 @@ a {
     justify-content: center;
     padding-left: 0;
 
-
 }
 
 .glass-animal {
@@ -86,8 +53,9 @@ a {
 }
 
 .header-events {
-    width: 70%;
+    width: 35%;
     margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .coming-events {
@@ -169,6 +137,8 @@ a {
     row-gap: 8rem;
     justify-content: space-around;
 }
+
+
 
 .activities {
     display: flex;
@@ -262,7 +232,7 @@ a {
         grid-template-columns: repeat(2, 1fr);
         margin: 0;
         border: 1px grey;
-        width: 80%;
+        width: 100%;
         padding: 0.5rem;
         gap: 3rem;
     }
@@ -272,14 +242,13 @@ a {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
-
     }
 
 
 }
 
 @media(max-width:920px) {
-    welcome-info {
+    .welcome-info {
         width: 90%;
         max-width: 50%;
     }
@@ -298,25 +267,6 @@ a {
         width: 50%;
         margin-top: 1rem;
         margin-bottom: 1rem;
-    }
-
-    .dekstop-footer {
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        align-items: center;
-        width: 100%;
-
-    }
-
-    .logo-box {
-        width: 100%;
-    }
-
-    .logo {
-        font-size: 20px;
-        margin: 0 5px;
-        line-height: 40px;
     }
 
     .entry-para {
@@ -345,10 +295,12 @@ a {
 }
 
 @media(max-width:550px) {
-    .logo {
-        font-size: 16px;
-        margin: 0 20px;
+
+    .header-events {
+        width: 100%;
+        margin-bottom: 3rem;
     }
+  
 
     .gallery-pics img {
         max-width: 200px;

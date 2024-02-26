@@ -19,7 +19,7 @@ h1 {
 h2 {
 
     font-style: semi bold;
-    font-size: clamp(36px, 2vw +10rem, 50px);
+    font-size: clamp(36px, 2vw + 10rem, 50px);
 
 }
 
