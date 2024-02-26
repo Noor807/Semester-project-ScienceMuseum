@@ -23,7 +23,7 @@ h2 {
 p {
     font-style: regular;
     font-size: 30px;
-    font-size: clamp(14px, 1vw + 1rem, 20px);
+    font-size: clamp(11px, 1vw + 1rem, 20px);
     margin: 0;
 }
 
