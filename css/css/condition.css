@@ -9,7 +9,6 @@ h1 {
     
     font-style: bold;
     font-size: clamp(30px, 1vw + 1rem, 36px);
-    width: 500px;
     margin-top: 2rem;
    
 }
@@ -153,6 +152,7 @@ a:hover {
         font-size: 16px;
         margin: 0 20px;
     }
+    
 
 }
 
@@ -242,6 +242,11 @@ body{
     .terms{
         gap: 1rem;
     }
+    .mini-robot{
+        max-width: 400px;
+        height: 250px;
+       
+     }
 
  }
 

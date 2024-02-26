@@ -6,7 +6,7 @@
     font-family: 'inter', sans-serif;
 }
 h1 {
-    font-size: clamp(10px, 1vw+1rem, 24px);
+    font-size: clamp(28px, 1vw+1rem, 36px);
     color: black;
     font-style: bold;
     margin: 4rem 9rem;
@@ -16,8 +16,9 @@ h1 {
 h2 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
-    font-size: clamp(14px, 1vw + 1rem, 20px);
+    font-size: clamp(15px, 1vw + 1rem, 30px);
     margin: 3rem 1rem;
+    border-radius: 1px solid black;
     
 }
 
@@ -196,19 +197,20 @@ p {
     gap: 1rem;
 
 }
-
+.gallery{
+    align-items: space-around;
+    border-radius: 1px solid black;
+}
 
 .gallery-pics {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-right: 14rem;
+    margin:4rem 2rem;
     border: 1px grey;
     width: 80%;
     padding: 3rem 1.5rem;
     gap: 4rem;
     align-items: center;
-
-
 
 }
 
@@ -280,9 +282,8 @@ p {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
         align-items: center;
-        width: 100%;
         padding: 0.5rem;
-        gap: 3rem;
+        gap: 1rem;
 
     }
     .heading {
@@ -338,6 +339,19 @@ p {
     .logo {
         font-size: 16px;
         margin: 0 20px;
+    }
+
+    .gallery-pics img{
+        max-width: 200px; 
+        align-items: center;
+    }
+
+    .museum-night img{
+        max-width: 300px;
+      
+    }
+    .museum-night{
+        margin-top: 1.5rem;
     }
    
  
