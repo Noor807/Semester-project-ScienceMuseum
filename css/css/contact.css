@@ -24,6 +24,12 @@
     width: 100%;
     max-width: 2000px;
 }
+.contact-h1{
+    margin: 3rem 1rem;
+    width: 100%;
+    align-items: flex-start;
+    font-size: 35px;
+}
 
 .contact-hours {
     width: 80%;
