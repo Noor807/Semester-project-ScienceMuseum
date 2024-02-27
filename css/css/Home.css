@@ -160,8 +160,8 @@
     box-shadow: 0.4rem o.4rem 0.4em rgba(0, 0, 0, 0);
     background-color: lightgray;
 
-
 }
+
 
 .three-events {
     display: flex;
@@ -306,7 +306,7 @@
     }
 
     .museum-night img {
-        max-width: 300px;
+        max-width: 100%;
 
     }
 
