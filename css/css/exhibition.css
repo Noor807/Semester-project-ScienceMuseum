@@ -7,15 +7,20 @@
     font-family: 'inter', sans-serif;
 }
 
-.center-body {
+.center-body-events {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items:flex-start;
     width: 80%;
-    margin: 0;
+    margin: 0 auto;
     gap: 1rem;
 
+}
+.exhibitions{
+    margin-top: 3rem ;
+    border-bottom: 1px solid  black;
+    width: 300px;
 }
 
 .home-pic {
@@ -25,7 +30,7 @@
 
 
 .header-events {
-    width: 35%;
+    width: 400px;
     margin-bottom: 3rem;
     margin-top: 2rem;
 }
@@ -35,7 +40,7 @@
     flex-direction: row;
     padding: 0;
     gap: 3rem;
-    margin: 4rem 4rem;
+    margin: 3rem 2rem;
     align-items: center;
     border: 1px solid black;
     background-color: lightblue;
@@ -43,20 +48,12 @@
     max-width: 1500px;
 }
 
-.detail {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 100%;
-    max-width: 50%;
-   
 
-}
 
 .reverse {
     display: flex;
     flex-direction: row;
-    margin: 6rem 5rem;
+    margin: 3rem 2rem;
     padding: 0;
     gap: 4.5rem;
     align-items: center;
@@ -67,30 +64,36 @@
 
 }
 
-.evo-detail {
+.evo-detail, .detail {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    padding: 1rem;
     width: 100%;
     max-width: 50%;
-    margin: 5rem;
     font-size: 28px;
+    gap: 1rem;
 
 }
 
 .special-night {
-    width: 100%;
-    row-gap: 3rem;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  
 }
 
 
-
 .activities {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
+    width: 100%;
+    gap:1rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3 ,1fr);
+    margin-bottom: 2rem;
+  
+}
+.forward img, .reverse img{
+    width: 100%;
+    max-width: 500px;
 }
 
 
@@ -102,11 +105,11 @@
     border: 1px solid black;
     width: 100%;
     max-width: 413px;
+    margin: 0 auto;
     gap: 2px;
-    height: 700px;
+    height: fit-content;
     box-shadow: 0.4rem o.4rem 0.4em rgba(0, 0, 0, 0);
     background-color: lightgray;
-
 
 }
 
@@ -139,34 +142,61 @@
         gap: 2rem;
 
     }
-
     .forward {
         display: flex;
         flex-direction: column;
-        margin: 6rem 5rem;
         padding: 0;
-        gap: 2rem;
+        gap: 3rem;
+        margin: 3rem 2rem;
+        align-items: center;
+        border: 1px solid black;
+        background-color: lightblue;
         width: 100%;
-        max-width: 520px;
+        max-width: 1500px;
     }
+    
+
     .reverse {
         display: flex;
         flex-direction: column;
-        margin: 6rem 5rem;
-        padding: 0;
-        gap: 2rem;
-        width: 100%;
-        max-width:520px;
-
+      
     }
+
     .detail {
         
         width: 90%;
         max-width: 500px;
        
-    
     }
 
+
+}
+@media (max-width:650px){
+    .forward, .reverse{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        margin: 0;
+        
+    }
+
+    .detail, .evo-detail {
+        width: 90%;
+        max-width: 100%;
+        padding: 0.7rem;
+       
+    }
+    .museum-night{
+        max-width: 100%;
+    }
+    .special-night {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      
+    }
+    
 
 }
 
@@ -186,6 +216,7 @@
     .museum-night {
         margin-top: 1.5rem;
     }
+
 
    
 }
