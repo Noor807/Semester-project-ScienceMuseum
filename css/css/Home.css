@@ -54,7 +54,7 @@
 }
 
 .header-events {
-    width: 35%;
+    width: 60%;
     margin-bottom: 3rem;
     margin-top: 2rem;
 }
@@ -249,7 +249,7 @@
 @media(max-width:920px) {
     .welcome-info {
         width: 90%;
-        max-width: 50%;
+        max-width: 85%;
     }
 
     .gallery-pics {
@@ -263,10 +263,15 @@
     }
 
     .heading {
-        width: 50%;
+        width: 100%;
         margin-top: 1rem;
         margin-bottom: 1rem;
         font-size: 20px;
+    }
+
+    .header-events {
+        width: 100%;
+        margin-bottom: 3rem;
     }
 
     .entry-para {
@@ -296,10 +301,7 @@
 
 @media(max-width:550px) {
 
-    .header-events {
-        width: 100%;
-        margin-bottom: 3rem;
-    }
+    
   
 
     .gallery-pics img {

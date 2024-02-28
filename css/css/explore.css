@@ -87,6 +87,10 @@ body {
     margin-bottom: 2rem;
     gap: 2rem;
 }
+.extra-info img{
+    width: 100%;
+}
+
 
 @media(max-width: 1300px){
     .explore {
