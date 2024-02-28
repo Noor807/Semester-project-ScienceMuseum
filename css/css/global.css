@@ -7,7 +7,7 @@
 }
 
 h1 {
-    font-size: clamp(28px, 1vw + 1rem, 36px);
+    font-size: clamp(30px, 1vw + 1rem, 36px);
     color: black;
     font-style: bold;
 
@@ -222,7 +222,7 @@ a:hover {
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 5px;
 }
 
 @media(max-width:920px){
@@ -231,7 +231,7 @@ a:hover {
         flex-direction: column;
         gap: 3rem;
         align-items: center;
-        width: 100%;
+       
 
     }
 
