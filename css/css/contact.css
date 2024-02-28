@@ -151,6 +151,10 @@ label,
 
 
 }
+.img-location img{
+    width: 100%;
+    max-width: 100%;
+}
 
 .adress {
     display: flex;
@@ -194,7 +198,7 @@ label,
         max-width: 350px;
     }
     .img-location img{
-        min-width: 350px;
+        min-width: 100%;
     }
 
     .adress{
