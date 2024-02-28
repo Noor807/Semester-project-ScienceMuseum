@@ -22,6 +22,7 @@
 
 .heading {
     width: 100%;
+    margin-top: 1rem;
 
 }
 
@@ -265,6 +266,7 @@
         width: 50%;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        font-size: 20px;
     }
 
     .entry-para {
