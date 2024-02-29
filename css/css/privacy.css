@@ -38,11 +38,14 @@
 
    }
 
-   .privacy-heading {
-       width: 200px;
-
+   .start h1 {
+       margin-top: 3rem;
    }
 
+   .privacy-heading {
+       width: 100%;
+
+   }
 
 
    .privacy {
@@ -57,7 +60,6 @@
    .privacy-kid {
        width: 100%;
        max-width: 2000px;
-
 
    }
 

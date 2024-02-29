@@ -1,8 +1,6 @@
- 
- @import url(./global.css);
+  @import url(./global.css);
 
-  /* exhibition.css*/
-
+  /* condition.css*/
   * {
       margin: 0;
       padding: 0;
@@ -10,9 +8,10 @@
       font-family: 'inter', sans-serif;
   }
 
+
+
   body {
       align-items: center;
-
   }
 
   .home-pic {
@@ -24,14 +23,15 @@
   .centered {
       width: 80%;
       margin: 0 auto;
+
   }
 
   .start {
       display: flex;
       flex-direction: column;
       gap: 0;
+      margin-top: 3rem;
       margin-bottom: 3rem;
-
   }
 
 
@@ -58,21 +58,7 @@
 
   }
 
-
-
   @media(max-width:630px) {
-      .dekstop-footer {
-          display: flex;
-          flex-direction: column;
-          gap: 3rem;
-          justify-content: space-around;
-          align-items: center;
-          padding: 2rem 0rem;
-          width: 100%;
-
-
-      }
-
       .terms {
           gap: 1rem;
 
@@ -84,5 +70,7 @@
 
 
       }
+
+
 
   }
