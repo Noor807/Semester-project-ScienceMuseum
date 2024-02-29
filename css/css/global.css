@@ -49,7 +49,7 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background: #23376B;
+    background:#191970;
 
 }
 
@@ -62,7 +62,7 @@ header div img {
 nav {
     width: auto;
     height: 10%;
-    background: #23376B;
+    background: #191970;
 }
 
 .logo-box {
@@ -140,7 +140,7 @@ a:hover {
     nav ul {
         width: 100%;
         height: fit-content;
-        background: #23376B;
+        background: #191970;
         position: fixed;
         top: 80px;
         left: -100%;
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .dekstop-footer {
-    background: #23376B;
+    background: #191970;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
