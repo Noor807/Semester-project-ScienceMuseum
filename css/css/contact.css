@@ -47,12 +47,15 @@
     max-width: 500px;
     gap: 2rem;
     height: 450px;
-    background-color: lightgrey
+    background-color: lightgrey;
+    box-shadow: 4px 4px 8px rgba(140, 138, 138, 0.9)
 }
+
 .visit-hour h2{
     width: 100%;
     max-width: 70%;
 }
+
 .time-hours{
     display: flex;
     flex-direction: row;
