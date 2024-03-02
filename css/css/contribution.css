@@ -6,7 +6,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'inter', sans-serif;
-  }
+    }
 
   .center-main {
       display: flex;
@@ -19,7 +19,7 @@
       margin: 0 auto;
       gap: 2rem;
 
-  }
+    }
 
 
 
@@ -27,14 +27,14 @@
       display: flex;
       flex-direction: column;
       gap: 2rem;
-  }
+    }
 
 
   .charity {
       width: 100%;
       max-width: 1000px;
       margin-bottom: 2rem;
-  }
+    }
 
   .contribution {
       display: flex;
@@ -47,12 +47,12 @@
       margin-top: 2rem;
       max-width: 1300px;
 
-  }
+    }
 
   .contribution img {
       width: 100%;
       max-width: 100%;
-  }
+    }
 
 
   .div-info {
@@ -62,7 +62,7 @@
       margin-top: 2rem;
       font-size: 26px;
 
-  }
+    }
 
   @media(max-width:1000px) {
       .contribution {
@@ -73,7 +73,7 @@
           margin-top: 2rem;
           max-width: 100%;
 
-      }
+        }
 
       .div-info {
           justify-content: center;
@@ -81,15 +81,15 @@
           gap: 2rem;
           margin: 1.5rem 1.5rem;
 
-      }
+        }
 
       @media(max-width:410px) {
           .support h1 {
               width: 100%;
               font-size: 25px;
-          }
+            }
 
-      }
+        }
 
 
-  }
+    }
