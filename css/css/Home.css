@@ -80,12 +80,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     background-color: lightgrey;
     width: 100%;
     max-width: 400px;
     gap: 5px;
-    box-shadow: 0.4rem o.4rem 0.4em rgba(0, 0, 0, 0);
+    box-shadow:4px 4px 8px rgba(140, 138, 138, 0.9);
 
 }
 
@@ -108,7 +108,7 @@
     align-items: center;
     gap: 2rem;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin-top: 5rem;
     margin-bottom: 5rem;
     background-color: lightcyan;
@@ -153,10 +153,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     width: 100%;
     max-width: 413px;
-    gap: 2px;
+    gap: 2.5px;
     height: 700px;
     box-shadow: 4px 4px 8px rgba(140, 138, 138, 0.9);
     background-color: lightgray;

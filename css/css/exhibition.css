@@ -19,7 +19,7 @@
 }
 .exhibitions{
     margin-top: 3rem ;
-    border-bottom: 1px solid  black;
+    border-bottom: 1px solid black;
     width: 300px;
 }
  
@@ -36,7 +36,7 @@
     gap: 3rem;
     margin: 3rem 2rem;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     background-color: lightblue;
     width: 100%;
     max-width: 1500px;
@@ -51,7 +51,7 @@
     padding: 0;
     gap: 4.5rem;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     background-color: lightgrey;
     width: 100%;
     max-width: 1500px;
@@ -96,14 +96,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     width: 100%;
     max-width: 413px;
     margin: 0 auto;
-    gap: 2px;
+    gap: 2.5px;
     height: fit-content;
-    box-shadow: 0.4rem o.4rem 0.4em rgba(0, 0, 0, 0);
-    background-color: lightgray;
+    box-shadow:4px 4px 8px rgba(140, 138, 138, 0.9);
+    background-color:lightgray;
 
 }
 
