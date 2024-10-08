@@ -1,4 +1,26 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1029" alt="Screenshot 2024-10-08 at 22 52 07" src="https://github.com/user-attachments/assets/6b8115d1-2557-46dd-9aec-adfe2dfa6920">
+
+
+
+
+
+
+
+
 #                                         Community Science Museum
 
  ### Instructions
@@ -76,6 +98,8 @@ In order to complete the project client requires the following assets to be supp
 (Figma) Style guide showing logo, colour scheme, typography and style rules.
 
 (Figma) High fidelity wireframe  (the actual mock-up, but excluding interaction) for each requested view.
+
+https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t=e9I6cjOTQHDkTOxG-1
 
 (GitHub) Project source code hosted in a public repository.
 
