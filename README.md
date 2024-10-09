@@ -73,7 +73,7 @@ Exhibitions page view
 
 Document page view - this includes the privacy policy and the terms and conditions (either together on one page or split into separate pages)
 
-### Requirements
+### Requirements of Client
 Project images should be sized appropriately and optimised for web delivery.
 
 The project must be responsive on mobile, tablet and large screen devices.
