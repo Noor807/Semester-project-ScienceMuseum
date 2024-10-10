@@ -90,19 +90,20 @@ The project design language must appeal to the target audience.
 ### Deliverables
 In order to complete the project client requires the following assets to be supplied:
 
-(Figma) Style guide showing logo, colour scheme, typography and style rules.
 
-(Figma) High fidelity wireframe  (the actual mock-up, but excluding interaction) for each requested view.
+(Figma) High fidelity wireframe:
 
 https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t=e9I6cjOTQHDkTOxG-1
 
 (GitHub) Project source code hosted in a public repository.
 
-(GitHub Pages) Deployed project preview URL.
+(GitHub Pages) URL.
 
-(GitHub Projects) Project Kanban board showing project progress.
+https://lillestrom-smuseum.netlify.app
 
-(Word) Written report including references.
+(GitHub Projects) Project Kanban board:
+
+
 
 
 ### Resources
