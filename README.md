@@ -88,7 +88,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-
+https://github.com/Noor807/Semester-project-ScienceMuseum.git
 ```
 
 2. Install the dependencies:
