@@ -69,21 +69,15 @@ This website is built up with only
 
 ### Requirements of Client
 
-Project images should be sized appropriately and optimised for web delivery.
+- Project images should be sized appropriately and optimised for web delivery.
 
-The project must be responsive on mobile, tablet and large screen devices.
-
-The project must be cross-browser compatible.
-
-The project must be accessible to a range of users including those with impairments or disabilities.
-
-The project must be built using semantic HTML elements.
-
-The project must adhere to the CSS DRY principle.
-
-The project must be well tested before delivery.
-
-The project design language must appeal to the target audience.
+- The project must be responsive on mobile, tablet and large screen devices.
+- The project must be cross-browser compatible.
+- The project must be accessible to a range of users including those with impairments or disabilities.
+- The project must be built using semantic HTML elements.
+- The project must adhere to the CSS DRY principle.
+- The project must be well tested before delivery.
+- The project design language must appeal to the target audience.
 
 
 
@@ -92,20 +86,16 @@ In order to complete the project client requires the following assets to be supp
 
 
 (Figma) High fidelity wireframe:
-
-https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t=e9I6cjOTQHDkTOxG-1
+- https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t=e9I6cjOTQHDkTOxG-1
 
 (GitHub) Project source code hosted in a public repository:
-
-https://github.com/Noor807/Semester-project-ScienceMuseum
+- https://github.com/Noor807/Semester-project-ScienceMuseum
 
 (GitHub Pages) URL.
-
-https://lillestrom-smuseum.netlify.app
+- https://lillestrom-smuseum.netlify.app
 
 (GitHub Projects) Project Kanban board:
-
-https://github.com/users/Noor807/projects/7?classId=ef3a73db-bfdb-43a2-b6fb-132244cde312&assignmentId=4868f55b-422b-4613-8166-707a4eb3ee1f&submissionId=8020a558-df6e-3c39-b792-b2b1be0a34d7
+- https://github.com/users/Noor807/projects/7?classId=ef3a73db-bfdb-43a2-b6fb-132244cde312&assignmentId=4868f55b-422b-4613-8166-707a4eb3ee1f&submissionId=8020a558-df6e-3c39-b792-b2b1be0a34d7
 
 
 
