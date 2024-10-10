@@ -95,13 +95,17 @@ In order to complete the project client requires the following assets to be supp
 
 https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t=e9I6cjOTQHDkTOxG-1
 
-(GitHub) Project source code hosted in a public repository.
+(GitHub) Project source code hosted in a public repository:
+
+https://github.com/Noor807/Semester-project-ScienceMuseum
 
 (GitHub Pages) URL.
 
 https://lillestrom-smuseum.netlify.app
 
 (GitHub Projects) Project Kanban board:
+
+https://github.com/users/Noor807/projects/7?classId=ef3a73db-bfdb-43a2-b6fb-132244cde312&assignmentId=4868f55b-422b-4613-8166-707a4eb3ee1f&submissionId=8020a558-df6e-3c39-b792-b2b1be0a34d7
 
 
 
