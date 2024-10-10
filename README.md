@@ -58,7 +58,7 @@ The following user stories to complete the project.
 
 
 
-### Built up
+# Built up
 This website is built up with only
 
 - HTML5: For semantic and accessible structure.
@@ -67,7 +67,7 @@ This website is built up with only
 
 
 
-### Requirements of Client
+## Requirements of Client
 
 - Project images should be sized appropriately and optimised for web delivery.
 
@@ -81,7 +81,7 @@ This website is built up with only
 
 ## Getting Started
 
-### Installing
+# Installing
 
 This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
@@ -101,7 +101,7 @@ npm install
 
 
 
-### Deliverables
+# Deliverables
 In order to complete the project client requires the following assets to be supplied:
 
 
