@@ -38,42 +38,37 @@ The site should appeal to youngsters without pandering; while aiming at a younge
 
 The client has not supplied a logo because the museum committee cannot decide on a final design.we are free to create a placeholder logo for the client.
 
+
+
 ### User Stories
+
 The following user stories to complete the project.
 
-A visitor can view a home page showing key information and impactful imagery.
+- A home page showing key information and impactful imagery.
 
-A visitor can view a contact page showing the museum's address, phone number, opening hours and contact form.
+- A contact page showing the museum's address, phone number, opening hours and contact form.
 
-A visitor can view a contribution showing information on how to contribute to the museum.
+- A contribution showing information on how to contribute to the museum.
 
-A visitor can view an exhibitions showing upcoming events and available exhibitions.
+- Exhibitions page showing upcoming events and available exhibitions.
 
-A visitor can view a privacy policy page showing the museum's privacy policy.
+- A privacy policy page showing the museum's privacy policy.
 
-A visitor can view a terms and conditions page showing the museum's terms and conditions.
+- A terms and conditions page showing the museum's terms and conditions.
+
+
 
 ### Built up
 This website is built up with only
 
--Html
+- HTML5: For semantic and accessible structure.
+- CSS3: To ensure responsive and appealing designs.
+- Figma: Used for creating the style guide and high-fidelity wireframes.
 
--Css
 
- ### Views
-Based on the user stories above, the minimum views required to complete the project are:
-
-Home page view
-
-Contact page view
-
-Contribution page view
-
-Exhibitions page view
-
-Document page view - this includes the privacy policy and the terms and conditions (either together on one page or split into separate pages)
 
 ### Requirements of Client
+
 Project images should be sized appropriately and optimised for web delivery.
 
 The project must be responsive on mobile, tablet and large screen devices.
@@ -109,7 +104,9 @@ https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t
 
 (Word) Written report including references.
 
+
 ### Resources
+
 The client has supplied suggested images and text content that can be used on the site.
 
 These resources are licensed for use for a web project.
