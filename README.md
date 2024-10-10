@@ -79,6 +79,26 @@ This website is built up with only
 - The project must be well tested before delivery.
 - The project design language must appeal to the target audience.
 
+## Getting Started
+
+### Installing
+
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+
+1. Clone the repo:
+
+```bash
+
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+  
+
 
 
 ### Deliverables
