@@ -1,87 +1,75 @@
+# 🏛️ Community Science Museum
+
+<img width="620" height="314" alt="Screenshot 2025-10-07 at 13 14 18" src="https://github.com/user-attachments/assets/3343c476-7c0d-4603-81d0-c1dd65e40434" />
 
 
+---
+
+## 📖 About the Project
+
+This project was created as part of a **semester exam assignment**, simulating a real-world client brief.  
+The task was to design and build a **modern, accessible, and responsive web presence** for the fictional client: **Community Science Museum**.  
+
+The museum’s target audience is **primary and middle school children (ages 7–15)**, families, and young visitors.  
+The website aims to **excite and entice people to visit**, with a design that appeals to children while maintaining professionalism.  
+
+---
+
+## 🎯 Client Brief
+
+- Create a responsive and accessible website.  
+- Provide a placeholder logo (since no official logo was supplied).  
+- Use impactful imagery and content provided by the client.  
+- Deliver a web presence that **inspires curiosity** and encourages visits.  
+
+---
+
+## 👥 User Stories
+
+The site was designed to fulfill the following requirements:
+
+- 🏠 **Home Page** – highlights key information and impactful imagery.  
+- 📞 **Contact Page** – includes address, phone number, opening hours, and a contact form.  
+- 🤝 **Contribution Page** – explains how visitors can support or contribute to the museum.  
+- 🖼️ **Exhibitions Page** – showcases upcoming events and exhibitions.  
+- 🔒 **Privacy Policy Page** – outlines the museum’s privacy policy.  
+- 📜 **Terms & Conditions Page** – displays the museum’s terms and conditions.  
+
+---
+
+## 🛠️ Built With  
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)  
+[![Wave Accessibility](https://img.shields.io/badge/WAVE-Accessibility-orange?style=for-the-badge)](https://wave.webaim.org/)  
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)  
+
+--------
+
+**Key Focus:**  
+- Semantic HTML for accessibility  
+- DRY CSS principles  
+- Responsive layouts (mobile, tablet, desktop)  
+- Cross-browser compatibility  
+- Optimized images for web performance  
+
+---
+
+## 📋 Client Requirements
+
+- Responsive design across devices  
+- Accessible design for users with disabilities  
+- Optimized and licensed images  
+- Tested thoroughly before delivery  
+- Visual design appealing to younger audiences  
+
+---
 
 
+## 🚀 Getting Started
 
-
-
-
-
-
-
-
-
-
-<img width="1029" alt="Screenshot 2024-10-08 at 22 52 07" src="https://github.com/user-attachments/assets/6b8115d1-2557-46dd-9aec-adfe2dfa6920">
-
-
-
-
-
-
-
-
-#                                         Community Science Museum
-
- ### Instructions
-Welcome to your first project exam brief. This assignment simulates a real-world brief that you may receive at from a web agency. The aim is to use your new knowledge of project planning, web design and development to complete the brief in the available time.
-
- ### Client
-An interactive science museum called the *Community Science Museum* is opening soon near your location. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
-
-
-
-### Brief
-Design and build a modern, accessible and responsive web presence for the client using the provided image and text content.
-
-The site should appeal to youngsters without pandering; while aiming at a younger audience it should not patronise them with overtly childish themes. The core purpose of the site is to excite and entice people to visit the museum.
-
-The client has not supplied a logo because the museum committee cannot decide on a final design.we are free to create a placeholder logo for the client.
-
-
-
-### User Stories
-
-The following user stories to complete the project.
-
-- A home page showing key information and impactful imagery.
-
-- A contact page showing the museum's address, phone number, opening hours and contact form.
-
-- A contribution showing information on how to contribute to the museum.
-
-- Exhibitions page showing upcoming events and available exhibitions.
-
-- A privacy policy page showing the museum's privacy policy.
-
-- A terms and conditions page showing the museum's terms and conditions.
-
-
-
-# Built up
-This website is built up with only
-
-- HTML5: For semantic and accessible structure.
-- CSS3: To ensure responsive and appealing designs.
-- Figma: Used for creating the style guide and high-fidelity wireframes.
-
-
-
-## Requirements of Client
-
-- Project images should be sized appropriately and optimised for web delivery.
-
-- The project must be responsive on mobile, tablet and large screen devices.
-- The project must be cross-browser compatible.
-- The project must be accessible to a range of users including those with impairments or disabilities.
-- The project must be built using semantic HTML elements.
-- The project must adhere to the CSS DRY principle.
-- The project must be well tested before delivery.
-- The project design language must appeal to the target audience.
-
-## Getting Started
-
-# Installing
+### 1. Clone the repository
 
 This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
@@ -99,38 +87,45 @@ npm install
 
   
 
+## 📦 Deliverables  
 
+In order to complete the project, the client required the following assets to be supplied:  
 
-# Deliverables
-In order to complete the project client requires the following assets to be supplied:
+- 🎨 **High-fidelity Wireframes (Figma):**  
+  [View Wireframes](https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t=e9I6cjOTQHDkTOxG-1)  
 
+- 💻 **Project Source Code (GitHub):**  
+  [View Repository](https://github.com/Noor807/Semester-project-ScienceMuseum)  
 
-(Figma) High fidelity wireframe:
-- https://www.figma.com/design/JcwVNqZTdHsEEMULk8OcJk/Science-museum?node-id=0-1&t=e9I6cjOTQHDkTOxG-1
+- 🌐 **Live Website (Netlify):**  
+  [Visit Community Science Museum](https://lillestrom-smuseum.netlify.app)  
 
-(GitHub) Project source code hosted in a public repository:
-- https://github.com/Noor807/Semester-project-ScienceMuseum
-
-(GitHub Pages) URL.
-- https://lillestrom-smuseum.netlify.app
-
-(GitHub Projects) Project Kanban board:
-- https://github.com/users/Noor807/projects/7?classId=ef3a73db-bfdb-43a2-b6fb-132244cde312&assignmentId=4868f55b-422b-4613-8166-707a4eb3ee1f&submissionId=8020a558-df6e-3c39-b792-b2b1be0a34d7
+- 📌 **Project Kanban Board (GitHub Projects):**  
+  [View Project Board](https://github.com/users/Noor807/projects/7?classId=ef3a73db-bfdb-43a2-b6fb-132244cde312&assignmentId=4868f55b-422b-4613-8166-707a4eb3ee1f&submissionId=8020a558-df6e-3c39-b792-b2b1be0a34d7)  
 
 
 
 
-### Resources
+## 📚 Resources  
 
-The client has supplied suggested images and text content that can be used on the site.
+The client supplied suggested **images** and **text content** that could be used for the site.  
 
-These resources are licensed for use for a web project.
+- All resources are **licensed for use** in a web project.  
+- Content is provided *as is* from the client and has not been edited.  
+- Additional imagery and text may be created if necessary, but all provided content must be included at a minimum.  
+- Any additional image content must be properly **licensed** for use in a public project.  
 
-Content is supplied *as is* from the client and has not been edited.
+-----------
 
-Additional imagery and text can be created as necessary, but it is important to include all of the provided text content at a minimum.
+## 📬 Contact Me  
 
-Additional image content must be licensed correctly for use in a public project.
+- 👤 **Author:** Noor Irfan  
+- 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
+- 🌐 **Portfolio:** [your-portfolio-link](#)  
+- 💼 **LinkedIn:** [your-linkedin-profile](#)  
+- 🐙 **GitHub:** [Noor807](https://github.com/Noor807)  
+
+
 
 
 
