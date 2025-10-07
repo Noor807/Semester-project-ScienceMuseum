@@ -120,9 +120,9 @@ The client supplied suggested **images** and **text content** that could be used
 ## 📬 Contact Me  
 
 - 👤 **Author:** Noor Irfan  
-- 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
+- 📧 **Email:** [iffijan34@yahoo.com](mailto:your-email@example.com)  
 - 🌐 **Portfolio:** [your-portfolio-link](#)  
-- 💼 **LinkedIn:** [your-linkedin-profile](#)  
+- 💼 **LinkedIn:** [linkedin-profile](https://www.linkedin.com/in/noor-irfan-03b2202a2/)  
 - 🐙 **GitHub:** [Noor807](https://github.com/Noor807)  
 
 
