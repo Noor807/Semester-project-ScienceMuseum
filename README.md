@@ -121,7 +121,7 @@ The client supplied suggested **images** and **text content** that could be used
 
 - 👤 **Author:** Noor Irfan  
 - 📧 **Email:** [iffijan34@yahoo.com](mailto:your-email@example.com)  
-- 🌐 **Portfolio:** [your-portfolio-link](#)  
+- 🌐 **Portfolio:** [my portfolio](https://noor-irfan.netlify.app)  
 - 💼 **LinkedIn:** [linkedin-profile](https://www.linkedin.com/in/noor-irfan-03b2202a2/)  
 - 🐙 **GitHub:** [Noor807](https://github.com/Noor807)  
 
